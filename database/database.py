@@ -9,7 +9,7 @@ from sqlalchemy_utils import create_database, database_exists
 class Database:
     """Class for general database settings"""
 
-    DB_PATH = "database/database-file/order-management.sqlite3"
+    DB_PATH = "database/database-file/invoices.sqlite3"
     BASE = declarative_base()
 
     def __init__(self):
