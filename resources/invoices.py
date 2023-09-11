@@ -49,7 +49,9 @@ def add_invoices():
                 if len(empty_data) == 0
                 else f"Items {', '.join(map(str, empty_data))} are empty"
             )
-            invoice_title = f"invoice_{order['order_id']}_{order['name']}.xml"
+            invoice_title = (
+                f"invoice_{order['order_id']}_{order['status']}.xml"
+            )
 
             new_invoice = Invoices(
                 order_id=order["order_id"],
