@@ -1,7 +1,7 @@
 # 🧾 Invoice Generator Microservice
 Microservice responsible for generating invoices in XML format for sales made.
 
-This project was developed for my full-stack development specialization and is related to two more microservices. For more information, just access the [project description](https://github.com/phdepaula/Full-Stack-Development-Specialization/blob/main/MVP%20-%20Desenvolvimento%20Back-End%20Avan%C3%A7ado/README.MD).
+This project was developed for my full-stack development specialization and is related to two more microservices. For more information, just access the [project description](https://github.com/phdepaula/Full-Stack-Development-Specialization/blob/main/Sprint%203%20-%20Advanced%20Backend%20Development/README.MD).
 
 ## 🛠️ Built With
 * [Flask](https://flask.palletsprojects.com/) - Web Framework
