@@ -11,6 +11,7 @@ services:
     volumes:
       - ./database/database-file/invoices.sqlite3:/app/database/database-file/invoices.sqlite3
       - ./invoices:/app/invoices
+      - ./log/logs-files:/app/log/logs-files
     environment:
       - API_TITLE=Invoice Generator
       - VERSION=1.0.0
