@@ -3,6 +3,7 @@ import os
 from flask_openapi3 import Info
 
 from database.database import Database
+from log.log import Log
 from resources.settings import Settings
 
 API_TITLE = os.environ.get("API_TITLE")
@@ -20,3 +21,4 @@ flask_settings.generate_app()
 
 app = flask_settings.app
 database = Database()
+log = Log()
