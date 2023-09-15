@@ -104,6 +104,7 @@ def add_invoices():
                 )
 
             log.add_message(f"Order {order['order_id']} completed")
+            log.add_message("")
 
         return_data = {"message": "Success", "invoices": invoices_generated}
 
