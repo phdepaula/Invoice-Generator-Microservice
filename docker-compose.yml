@@ -3,7 +3,7 @@ services:
   meu-app-invoice-generator:
     build:
       context: .
-      dockerfile: dockerfile
+      dockerfile: Dockerfile
     container_name: invoice-generator-microservice
     image: invoice-generator:1.0.0
     ports:
