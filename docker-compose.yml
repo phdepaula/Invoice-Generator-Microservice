@@ -9,7 +9,7 @@ services:
     ports:
       - "5002:5002"
     volumes:
-      - ./database/database-file/invoices.sqlite3:/app/database/database-file/invoices.sqlite3
+      - ./database/database-file:/app/database/database-file
       - ./invoices:/app/invoices
       - ./log/logs-files:/app/log/logs-files
     environment:
